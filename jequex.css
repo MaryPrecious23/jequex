@@ -1,0 +1,485 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+}
+
+#header {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 4rem;
+    flex-wrap: wrap;
+}
+
+#title {
+    font-size: 3vw;
+    width: 30%;
+    margin-right: 4rem;
+}
+
+#title > p {
+    margin: 0;
+}
+
+#title > p > span {
+    font-size: 1vw;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 40%;
+    margin-right: 4rem;
+}
+
+#links > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+#header-button {
+    justify-self: end;
+}
+
+#header-button > button {
+    height: 8vh;
+    background-color: #F0C40E;
+    border: none;
+}
+
+#main-area {
+    height: 70vh;
+    width: inherit;
+}
+
+#main-area-image {
+    height: 70vh;
+    width: inherit;
+    background-image: url('./images/header.jpg');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+#main-area-part {
+    height: 70vh;
+    width: inherit;
+    background-color: #0e15f09a;
+    position: relative;
+    z-index: 1;
+    padding: 2rem 4rem;
+}
+
+#main-area-part {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+}
+
+#main-area-part-text {
+    width: 45%; 
+}
+
+#main-area-part-text > p {
+    font-size: 4.7vw;
+    font-weight: 700;
+    color: white;
+    margin-top: 0%;
+}
+
+form {
+    height: 85%;
+}
+
+#main-area-part-form {
+    background-color: white;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 1% 2.5%;
+}
+
+#form-elements {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit-button {
+    width: 20vw;
+    font-size: 1.3vw;
+    background-color: #F0C40E;
+    padding: 2% 15%;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-input {
+    border: 1px solid;
+    width: 20vw;
+    height: 2rem;
+    border-radius: 3px;
+}
+
+.form-text-area {
+    border: 1px solid;
+    width: 20vw;
+    height: 5rem;
+    border-radius: 3px;
+}
+
+#web-app-logo {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+.web-item {
+    display: flex;
+}
+
+img {
+    height: 28PX;
+    width: 35px;
+}
+
+#recomendation {
+    /* background-color: red; */
+    width: 93%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#comments {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#what-people-say {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#clients-image-one {
+    background-image: url('./images/girl.jpg');
+}
+
+#clients-image-two {
+    background-image: url('./images/lady.jpg');
+}
+
+#clients-image-three {
+    background-image: url('./images/guy.jpg');
+}
+
+.comments {
+    font-size: smaller;
+}
+
+.clients {
+    height: 143px;
+    width: 143px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#advantage {
+    /* background-color: red; */
+    width: 93%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+#advantage-heading {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.text-heading {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.4vw;
+    text-align: justify;
+}   
+
+.advantage {
+    display: flex;
+    font-size: x-small;
+    border: 2px solid wheat;
+    box-shadow: 5px; 
+    padding: 2% 2%;   
+    width: 47%;
+}
+
+#advantage-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#advantage-box-up, #advantage-box-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#advantage-one-img {
+    background-image: url('./images/commitment.jpg');
+}
+
+#advantage-two-img {
+    background-image: url('./images/reliability.jpg');   
+}
+
+#advantage-three-img {
+    background-image: url('./images/creativity.jpg');  
+}
+
+#advantage-four-img {
+    background-image: url('./images/integrity.jpg');
+}
+
+.advantage-boxes {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+#subscription {
+    background-color: #373BB0;
+    width: 93%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+}
+
+#subscribe-heading {
+    color: white;
+    font-size: 2.8vw;
+}
+
+#subscribe {
+    display: flex;
+    width: 50%;
+    background-color: blue;
+}
+
+.mail {
+    width: 32vw;
+    height: 7vh;
+    border-radius: 10px 0 0 10px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#subscribe-button {
+    width: 13vw;
+    height: 7vh;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #F0C40E;
+    font-size: 1.9vw;
+}
+
+#numbers-and-census {
+    background-color: #373BB0;
+    width: 93%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding: 2% 2%;
+    color: white;
+    font-size: large;
+    margin-bottom: 4%;
+}
+
+.numbers {
+    font-size: larger;
+    padding-right: 1.5%;
+    margin-top: 3%;
+}
+
+.numbers-and-census {
+    display: flex;
+}
+
+#our-blog {
+    /* background-color: #373BB0; */
+    width: 93%;
+    margin-left: 5%; 
+    margin-bottom: 3%;
+}
+
+#our-blog-heading {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+
+#blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-blog {
+    background-image: url('./images/first\ blog\ picture.jpg');
+}
+
+#second-blog {
+    background-image: url('./images/second\ blog\ picture.jpg');
+}
+
+#third-blog {
+    background-image: url('./images/third\ blog\ picture.jpg');
+}
+
+.blog-pictures {
+    height: 200px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 2%;
+    border: 3px solid wheat;
+}
+
+.blog-letters {
+    border:  solid wheat;
+    width: 340px;
+}
+
+#footer {
+    background-color:  #3F4070;
+    width: inherit;
+    justify-content: center;
+    color: white;
+
+}
+
+#title-footer {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+#title > p {
+    margin: 0;
+}
+
+#title-footer> p > span {
+    font-size: 1vw;
+}
+
+#footer-contact {
+    /* width: 30vw; */
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #F0C40E; */
+}
+
+#footer-contact > div {
+    display: flex;
+    align-items: center;
+
+}
+
+#footer-contact > div > div> a {
+    color: white;
+
+}
+
+#mail {
+    background-image: url('./images/mail.jpg');
+}
+
+#telephone {
+    background-image: url('./images/telephone.jpg');
+}
+
+#location {
+    background-image: url('./images/location.jpg');
+}
+
+.footer-contact-icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#footer-icons {
+    /* background-color:  #ca24a0; */
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 42%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+#first-footer-image { 
+    background-image: url('./images/twitter.jpg');
+}
+
+#second-footer-image {
+     background-image: url('./images/facebook.jpg');
+}
+
+#third-footer-image {
+    background-image: url('./images/instagram.jpg');
+}
+
+#fourth-footer-image {
+    background-image: url('./images/telegram.jpg');
+}
+
+.footer-images {
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
